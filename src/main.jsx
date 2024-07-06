@@ -1,6 +1,6 @@
 import React from "react";
 import * as ReactDOM from "react-dom/client";
-import App from "./routes/App.jsx";
+import App from "./pages/App.jsx";
 import {
   BrowserRouter,
   createBrowserRouter,
@@ -10,9 +10,9 @@ import {
 } from "react-router-dom";
 import "./index.css";
 import ErrorPage from "./error-page.jsx";
-import Home from "./routes/Home.jsx";
-import About from "./routes/About.jsx";
-import Contact from "./routes/Contact.jsx";
+import Home from "./pages/Home.jsx";
+import About from "./pages/About.jsx";
+import Contact from "./pages/Contact.jsx";
 
 // const router = createBrowserRouter([
 //   {
